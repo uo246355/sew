@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Guillermo de Leiva Martínez" />
+    <meta name ="description" content ="Página web que habla sobre el Framework Bootstrap" />
+    <meta name ="keywords" content ="Bootstrap, HTML, CSS, JavaScript, Uniovi, Framework, ingenieria, software, desarrollo, web" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- link de enlaces a la hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" /> -->
+    <title>Encuesta</title>
+</head>
+<body>
+    <!-- Agrupar los formularios en uno -->
+    <header>
+      <h1>Framework Bootstrap</h1>
+    </header>
+    <nav>
+      <a href="index.html" tabindex="1" accesskey="i">Index</a>
+      <a href="tabladeVersiones.html" tabindex="2" accesskey="t">Tabla de Versiones</a> 
+      <a href="lista.html" tabindex="3" accesskey="v">Ventajas y Desventajas</a>
+    </nav>
+    <main>
+    <h2>Encuesta Bootstrap</h2>
+    <p>Vamos a realizar una pequeña encuesta sobre Bootstrap, para ver su opinión sobre el Framework</p>
+    <p>¿Cuál es tu fecha de nacimiento?</p>
+    <form>
+     <label for="year">Fecha</label>
+     <input type="date" id="year" name="year">
+    <p>¿Cuanto tiempo llevas usando internet?</p>
+     <label for="tiempo">Tiempo en años:</label>
+     <input type="number" min="1" max="40" value="1" step= "1" id="tiempo" name="tiempo">
+    <p>Describe tu opinión sobre el framework Bootstrap en una palabra:</p>
+     <label for="fname">Opinión</label>
+     <input type="text" id="fname" name="fname">
+    <fieldset>
+     <legend>¿Que ventajas te parecen utiles de Bootstrap respecto a otros frameworks?</legend>
+       <input type="checkbox" id="fgridsystem" name="fgridsystem" value="gridsystem">
+       <label for="fgridsystem">Grid System</label>
+       <input type="checkbox" id="ferFacilidad" name="fFacilidad" value="Facilidad">
+       <label for="ferFacilidad">Facilidad a la hora de diseñar</label>
+       <input type="checkbox" id="finteroperabilidad" name="finteroperabilidad" value="Interoperabilidad">
+       <label for="finteroperabilidad">Interoperabilidad</label>
+   </fieldset>
+   <fieldset>
+     <legend> Como puntuarías Bootstrap como framework para su uso</legend>
+       <input type="radio" id="1" name="puntuar" value="1">
+       <label for="1">1</label>
+       <input type="radio" id="2" name="puntuar" value="2">
+       <label for="2">2</label>
+       <input type="radio" id="3" name="puntuar" value="3">
+       <label for="3">3</label>
+       <input type="radio" id="4" name="puntuar" value="4">
+       <label for="4">4</label>
+       <input type="radio" id="5" name="puntuar" value="5">
+       <label for="5">5</label>
+   </fieldset>
+   <input type="submit" value="Enviar" >
+  </form>
+  </main>
+   <img src="multimedia/user.jpg" alt="Usuario utilizando Bootstrap" />
+    <!-- la carpeta de recursos gráficos "images" debe estar en el misma carpeta del archivo -->
+    <!-- anadir la sección footer dentro del body despues del párrafo -->
+    <footer>
+        <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="multimedia/CSS3.png"  alt="CSS Válido!"  />
+    </footer>
+</body>
+</html>

@@ -1,0 +1,44 @@
+/*********
+    Autor: Guillermo de Leiva Martínez - UO246355
+    Descripcion de la hoja de estilo
+************/
+   /* Especificidad: 001*/
+   h1 {
+        padding: 2em;
+   }
+   /* Especificidad: 001*/
+   header{
+       display: flex;
+       flex-direction: column;
+       gap: 1em;
+   }
+   /* Especificidad: 001*/
+   nav{
+       display: flex;
+       flex-direction: row;
+       gap: 5em;
+       padding: 2em; 
+       flex-wrap: wrap;
+   }
+   /* Especificidad: 001*/
+   main{
+       display: flex;
+       flex-direction: column;
+       gap: 1em;
+   }
+   /* Especificidad: 001*/
+   footer{
+       display: flex;
+       flex-direction: row;
+       gap: 1em;
+   }
+   /* Especificidad: 001*/
+   video{
+       max-width: 100%;
+       height: auto;
+     }
+     /* Especificidad: 001*/
+   img {
+       max-width: 100%;
+       height: auto;
+     }

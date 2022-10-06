@@ -1,23 +1,46 @@
 <!DOCTYPE HTML>
-
 <html lang="es">
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
-    <title>SEW.P0</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Guillermo de Leiva Martínez" />
+    <meta name ="description" content ="Página web que habla sobre el Framework Bootstrap" />
+    <meta name ="keywords" content ="Bootstrap, HTML, CSS, JavaScript, Uniovi, Framework, ingenieria, software, desarrollo, web" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- link de enlaces a la hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" /> -->
+    <title>Inicio</title>
 </head>
 
 <body>
+    <header>
+        <h1>Framework Bootstrap</h1>
+    </header>
+    <nav>
+    <a href="lista.html" tabindex="1" accesskey="v">Ventajas y Desventajas</a>
+    <a href="tabladeVersiones.html" tabindex="2" accesskey="t">Tabla de Versiones</a> 
+    <a href="encuesta.html" tabindex="3" accesskey="e">Encuesta</a>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>Primer sitio web</h1>
-    <p>¡Hola Mundo! Soy Guillermo de Leiva y este es el primer sitio web adaptable y accesible desarrollado cumpliendo los estándares HTML5, CSS3. </p>
+    </nav>
+    <main>
+    <!--Tiene que ser el mismo en todos, generalmente, recomendacion de accesibilidad, mientras que el h2 seria el contenido específico-->
+    <p>Bootstrap es una biblioteca multiplataforma milenaria o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como extensiones de JavaScript adicionales.</p>
+    <p>A diferencia de muchos frameworks web, solo se ocupa del desarrollo front-end.</p>
+    <p>Bootstrap es el segundo proyecto más destacado en GitHub1 y es usado por la NASA y la MSNBC, entre otras organizaciones.</p>
+    <p> Esta es la <a href="https://getbootstrap.com/">página oficial de Bootstrap</a></p>
     <!-- la carpeta de recursos gráficos "images" debe estar en el misma carpeta del archivo -->
     <!-- anadir la sección footer dentro del body despues del párrafo -->
+    </main>
+    <img src="multimedia/logo.png" alt=" Logo Bootstrap" />
     <footer>
-        <img src="images/HTML5.png" alt=" HTML5 Válido!" />
-        <img src="images/CSS3.png"  alt="CSS Válido!"  />
+        <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="multimedia/CSS3.png"  alt="CSS Válido!"  />
     </footer>
 </body>
 </html>
