@@ -32,6 +32,9 @@
        flex-direction: row;
        gap: 1em;
    }
+   picture{
+       display: grid;
+   }
    /* Especificidad: 001*/
    video{
        max-width: 100%;

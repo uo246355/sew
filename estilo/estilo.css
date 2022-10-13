@@ -27,6 +27,11 @@ body {
        text-transform: uppercase;
        text-align: center;
    }
+   /* Especificidad: 003*/
+   main p a{
+    text-decoration: none;
+    color: #E6E6E6;
+   }
    /* Especificidad: 002*/
    nav a{
        text-decoration: none;
