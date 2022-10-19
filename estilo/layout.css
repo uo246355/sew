@@ -3,45 +3,38 @@
     Descripcion de la hoja de estilo
 ************/
    /* Especificidad: 001*/
-   h1 {
-        padding: 2em;
+   body{
+       display: grid;
+       grid-gap: 2em;
    }
    /* Especificidad: 001*/
    header{
-       display: flex;
-       flex-direction: column;
-       gap: 1em;
+      grid-column: 1;
+      grid-row: 1;
    }
    /* Especificidad: 001*/
    nav{
-       display: flex;
-       flex-direction: row;
-       gap: 5em;
-       padding: 2em; 
-       flex-wrap: wrap;
+      justify-self: start;
+      grid-column: 1;
+      grid-row: 2;
    }
-   /* Especificidad: 001*/
+    /* Especificidad: 001*/
    main{
-       display: flex;
-       flex-direction: column;
-       gap: 1em;
+      grid-column: 1;
+      grid-row: 3;
    }
    /* Especificidad: 001*/
    footer{
-       display: flex;
-       flex-direction: row;
-       gap: 1em;
+        grid-column: 1;
+        grid-row: 7;
    }
+    /* Especificidad: 001*/
    picture{
-       display: grid;
+        grid-column: 1;
+        grid-row: 5;
    }
    /* Especificidad: 001*/
    video{
-       max-width: 100%;
-       height: auto;
-     }
-     /* Especificidad: 001*/
-   img {
-       max-width: 100%;
-       height: auto;
+        grid-column: 1;
+        grid-row: 6;
      }

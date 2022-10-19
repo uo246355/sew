@@ -50,9 +50,12 @@
     </ul>
     </main>
     <picture>
-    <video src="Multimedia/Bootstrap.mp4" controls preload="auto"> </video>
+    <source media="(max-width: 799px)" srcset="multimedia/logo.png">
+    <source media="(min-width: 800px)" srcset="multimedia/logo.png">
     <img src="multimedia/logo.png" alt=" Logo Bootstrap" />
     </picture>
+    <video src="Multimedia/Bootstrap.mp4" controls preload="auto"> </video>
+    <!-- Añadir el video de otro tipo con source, y las imagenes en picture con la adaptabilidad -->
     <!-- la carpeta de recursos gráficos "images" debe estar en el misma carpeta del archivo -->
     <!-- anadir la sección footer dentro del body despues del párrafo -->
     <footer>
