@@ -6,35 +6,41 @@
    body{
        display: grid;
        grid-gap: 2em;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+
    }
    /* Especificidad: 001*/
    header{
-      grid-column: 1;
+      grid-column: 1 / span 4;
       grid-row: 1;
    }
    /* Especificidad: 001*/
    nav{
-      justify-self: start;
-      grid-column: 1;
+      grid-column:  1 / span 4;
       grid-row: 2;
    }
     /* Especificidad: 001*/
    main{
-      grid-column: 1;
-      grid-row: 3;
+    grid-column: 2 /span 2 ;
+    grid-row: 3 ;
    }
-   /* Especificidad: 001*/
-   footer{
-        grid-column: 1;
-        grid-row: 7;
+    /* Especificidad: 001*/
+   section{
+    grid-column: 2 /span 2 ;
+    grid-row: 3;
    }
     /* Especificidad: 001*/
    picture{
-        grid-column: 1;
-        grid-row: 5;
+        grid-column: 4;
+        grid-row: 3 ;
    }
    /* Especificidad: 001*/
    video{
         grid-column: 1;
-        grid-row: 6;
+        grid-row: 3;
      }
+    /* Especificidad: 001*/
+     footer{
+        grid-column: 1/span 4;
+        grid-row: 4;
+   }

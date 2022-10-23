@@ -31,6 +31,7 @@ body {
    main p a{
     text-decoration: none;
     color: #E6E6E6;
+    background-color:#4A4A4A;
    }
    /* Especificidad: 002*/
    nav a{
@@ -54,3 +55,7 @@ body {
        max-width: 100%;
        height: auto;
      }
+    /* Especificidad: 001*/
+     th, td{
+        padding: 1em;
+    }

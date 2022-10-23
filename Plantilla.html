@@ -14,15 +14,31 @@
 
     <!-- link de enlaces a la hoja de estilos -->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     <title>Aquí irá el título del sitio web</title>
 </head>
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>Encabezado principal del documento</h1>
-    <p>¡Hola Mundo! Soy Guillermo de Leiva y este es el primer sitio web adaptable y accesible desarrollado cumpliendo los estándares HTML5, CSS3. </p>
+    <header>
+        <h1>Encabezado</h1>
+    </header>
+    <nav>
+        <a href="index.html" tabindex="1" accesskey="i">enlaces</a>
+        <a href="lista.html" tabindex="2" accesskey="c">enlaces</a> 
+        <a href="tabladeVersiones.html" tabindex="3" accesskey="v">enlaces</a>
+        <a href="encuesta.html" tabindex="4" accesskey="e">enlaces</a>
+    </nav>
+    <section>
+    <h2>Título de la página</h2>
+    <p>Contenido de la página</p>
+    </section>
     <!-- la carpeta de recursos gráficos "images" debe estar en el misma carpeta del archivo -->
     <!-- anadir la sección footer dentro del body despues del párrafo -->
+    <picture>
+        <p>Imágenes</p>
+    </picture>
+    <video src="Multimedia/Bootstrap.mp4" controls preload="auto"> </video>
     <footer>
         <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />
         <img src="multimedia/CSS3.png"  alt="CSS Válido!"  />
