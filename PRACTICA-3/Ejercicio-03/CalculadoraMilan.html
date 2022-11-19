@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <meta name="description" content="Calculadora Basica con java" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Calculadora" />
+    <meta name="author" content="Guillermo de Leiva Martínez" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraMilan.css" />
+</head>
+<body>
+    <header>
+    <h1>Calculadora Milan</h1>
+    </header>
+    <script src="CalculadoraMilan.js"></script> 
+    <fieldset>
+        <legend>Calculadora</legend>
+   
+    <form>
+        <label for="pantallaCalc">Mil</label>
+        <input type="text" id=pantallaCalc name="pantallaCalc" value= "Introducir Numeros aqui" readonly />
+       
+        <input type="button" name="mrc" value="mrc" onClick = "calc.mrc()"/>
+        
+        <input type="button"  name="mmenos" value="m-" onClick = "calc.mMenos()"/>
+       
+        <input type="button"  name="mmas" value="m+" onClick = "calc.mMas()"/>
+        
+        <input type="button"  name="division" value="/" onClick = "calc.division()"/>
+        
+        <input type="button" name="siete" value="7" onClick = "calc.digitos(7)"/>
+        
+        <input type="button" name="ocho" value="8" onClick = "calc.digitos(8)"/>
+        
+        <input type="button"  name="nueve" value="9" onClick = "calc.digitos(9)"/>
+        
+        <input type="button"   name="multiplicacion" value="*" onClick = "calc.multiplicacion()"/>
+        
+        <input type="button" name="cuatro" value="4" onClick = "calc.digitos(4)"/>
+        
+        <input type="button"  name="cinco" value="5" onClick = "calc.digitos(5)"/>
+        
+        <input type="button"   name="seis" value="6" onClick = "calc.digitos(6)"/>
+        
+        <input type="button"   name="resta" value="-" onClick = "calc.resta()"/>
+        
+        <input type="button"  name="uno" value="1" onClick = "calc.digitos(1)"/>
+        
+        <input type="button"   name="dos" value="2" onClick = "calc.digitos(2)"/>
+        
+        <input type="button"   name="tres" value="3" onClick = "calc.digitos(3)"/>
+        
+        <input type="button"  name="suma" value="+" onClick = "calc.suma()"/>
+        
+        <input type="button"   name="cero" value="0" onClick = "calc.digitos(0)"/>
+        
+        <input type="button"   name="punto" value="." onClick = "calc.punto()"/>
+        
+        <input type="button"   name="borrar" value="ON" onClick = "calc.borrar()"/>
+
+        <input type="button"   name="borrarCE" value="CE" onClick = "calc.borrar()"/>
+        
+        <input type="button"  name="raizcuadrada" value="√x" onClick = "calc.raizcuadrada()"/>
+
+        <input type="button"  name="porcentaje" value="%" onClick = "calc.porcentaje()"/>
+        
+        <input type="button"  name="negativo" value="-/+" onClick = "calc.negativo()"/>
+
+        <input type="button"  name="igual" value="=" onClick = "calc.igual()"/>
+
+        <input type="submit" value="env" >
+        
+      </form>
+    </fieldset> 
+</body>
+</html>
