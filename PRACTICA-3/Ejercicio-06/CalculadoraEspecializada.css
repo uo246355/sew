@@ -26,16 +26,16 @@ body {
     text-transform: uppercase;
     text-align: center;
    }
-   /* Especificidad: 100*/
-   #pantallaCalc{
+ /* Especificidad: 013*/
+ fieldset form input[name='pantallaCalc']{
     width: 17em;
     height: 4em;
    }
-    /* Especificidad: 100*/
-   #pantallaVariables{
+    /* Especificidad: 013*/
+    fieldset form input[name='pantallaVariables']{
     width: 13em;
     height: 2em;
-   }
+    }
     /* Especificidad: 002*/
    form input{
     width: 5em;
