@@ -24,8 +24,9 @@
   <script src="Ejercicio14.js"></script>
     <main>
     
-      <p>Subir imagen: <input type="file" name="subirImagen" onchange="filer.showImage();"></p>
-      <p>Subir audio: <input type="file" name="subirAudio" onchange="filer.showAudio();"></p>
+      <p><label for="subirImagen">Sube imagen o audio:</label><input type="file" id="subirImagen" name="subirImagen" onchange="filer.showImage();"></p>
+      <p>La imagen se mostrará debajo</p>
+      <p><label for="subirAudio">Sube Audio:</label> <input type="file" id="subirAudio" name="subirAudio" onchange="filer.showAudio();"></p>
       <canvas width="400" height="300" id="canvas"></canvas>
   </main>
 </body>
