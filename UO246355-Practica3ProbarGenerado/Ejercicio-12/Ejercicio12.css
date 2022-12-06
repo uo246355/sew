@@ -15,3 +15,10 @@ main{
        max-width: 100%;
        height: 50em;
    }
+   /* Especificidad: 001*/   
+   textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: Tahoma, sans-serif;
+  font-size:1em;
+}
