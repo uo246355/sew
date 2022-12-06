@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="Guillermo de Leiva Martínez">
+    <meta name="description" content="Página web que habla sobre el Framework Bootstrap">
+    <meta name="keywords" content="Bootstrap, HTML, CSS, JavaScript, Uniovi, Framework, ingenieria, software, desarrollo, web">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link de enlaces a la hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio12.css">
+    <!-- <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" /> -->
+    <title>Sube Archivos</title>
+</head>
+<body>
+  <header>
+    <h1>Sube archivos</h1>
+  </header>
+  <script src="Ejercicio12.js"></script>
+    <main>
+    <p><input type="file" name="subirArchivos" onchange="filer.verArchivo();" multiple=""></p>
+  <p>Archivo[0] = Ejemplo.json</p><p>Tamaño: 628 bytes </p><p>Tipo: application/json</p><p>Fecha de la última modificación: Sun Dec 04 2022 19:37:56 GMT+0100 (hora estándar de Europa central)</p><label for="area120">Codigo Json:</label> <textarea id="area120" name="area120" rows="40" cols="120">{"widget": {
+    "debug": "on",
+    "window": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 500,
+        "height": 500
+    },
+    "image": { 
+        "src": "Images/Sun.png",
+        "name": "sun1",
+        "hOffset": 250,
+        "vOffset": 250,
+        "alignment": "center"
+    },
+    "text": {
+        "data": "Click Here",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 250,
+        "vOffset": 100,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+}}  </textarea><p>Archivo[0] = Ejemplo.xml</p><p>Tamaño: 7330 bytes </p><p>Tipo: text/xml</p><p>Fecha de la última modificación: Sun Nov 06 2022 20:58:30 GMT+0100 (hora estándar de Europa central)</p><label for="area111">Codigo XML:</label> <textarea id="area111" name="area111" rows="40" cols="120">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+
+&lt;socialnetwork&gt;
+&lt;persona nombre="Guillermo" apellidos="De Leiva Martínez"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1996-12-23&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3613" rlongitud="-5.8475" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoGuillermo.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoGuillermo.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya peliculón!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;persona nombre="Alejandra" apellidos="De Leiva Martínez"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1994-04-15&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3603" rlongitud="-5.8465" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoAlejandra.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoAlejandra.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya mojón!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;persona nombre="Elsa" apellidos="De Leiva Martínez"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1999-06-28&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3613" rlongitud="-5.8495" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoElsa.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoElsa.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya vaya!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;/persona&gt;
+&lt;persona nombre="Javier" apellidos="De Leiva Moreno"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1964-04-14&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3673" rlongitud="-5.8485" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoJavier.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoJavier.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya aqui no hay playa!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;/persona&gt;
+&lt;persona nombre="Carmen María" apellidos="Martínez Alvarez"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1964-09-03&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3653" rlongitud="-5.8435" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoCarmen.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoCarmen.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya ni montaña!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;/persona&gt;
+&lt;/persona&gt;
+&lt;persona nombre="Sara" apellidos="Montero Martínez"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1995-11-24&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3643" rlongitud="-5.8445" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoSara.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoSara.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya horror!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;  
+&lt;persona nombre="Alicia" apellidos="Segovia Hevia"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1994-10-26&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3603" rlongitud="-5.8405" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoAlicia.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoAlicia.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya playón!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;/persona&gt;
+&lt;persona nombre="Pepe" apellidos="Moreno Martínez"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1990-01-22&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3613" rlongitud="-5.8385" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoPepe.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoPepe.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya tractor!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt; 
+&lt;/persona&gt;
+&lt;persona nombre="Rosalia" apellidos="Calvo Sotelo"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1992-10-23&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3683" rlongitud="-5.8405" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoRosalia.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya papo!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;/persona&gt;
+&lt;/persona&gt;
+&lt;persona nombre="Zape" apellidos="Martínez Martínez"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1986-02-12&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3673" rlongitud="-5.8455" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoZape.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoZape.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya torta!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;persona nombre="Marijel" apellidos="Martínez Martínez"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1976-11-03&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3573" rlongitud="-5.8465" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoMarijel.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoMarijel.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya playón!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;/persona&gt;
+&lt;persona nombre="Angel" apellidos="Martínez Martínez"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1956-11-23&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3643" rlongitud="-5.8405" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoAngel.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoAngel.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya aburrimiento!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;/persona&gt;
+&lt;persona nombre="Juan" apellidos="Martínez Martínez"&gt;
+&lt;datos&gt;
+&lt;fechanacimiento&gt;1946-10-14&lt;/fechanacimiento&gt;
+&lt;lugar lnacimiento="Oviedo" lresidencia="Oviedo"&gt;&lt;/lugar&gt;
+&lt;coordenadas&gt;
+&lt;nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"&gt;&lt;/nacimiento&gt;
+&lt;residencia rlatitud="43.3593" rlongitud="-5.8495" raltitud="232"&gt;&lt;/residencia&gt;
+&lt;/coordenadas&gt;
+&lt;fotos&gt;
+&lt;foto&gt;fotoJuan.jpg&lt;/foto&gt;
+&lt;/fotos&gt;
+&lt;videos&gt;
+&lt;video&gt;videoJuan.mp4&lt;/video&gt;
+&lt;/videos&gt;
+&lt;comentarios&gt;
+&lt;comentario&gt;¡Vaya viejo soy!&lt;/comentario&gt;
+&lt;/comentarios&gt;
+&lt;/datos&gt;
+&lt;/persona&gt;
+&lt;/persona&gt;
+&lt;/persona&gt;  
+&lt;/socialnetwork&gt;</textarea><p>Archivo[0] = Ejemplo.txt</p><p>Tamaño: 33 bytes </p><p>Tipo: text/plain</p><p>Fecha de la última modificación: Sun Dec 04 2022 19:37:12 GMT+0100 (hora estándar de Europa central)</p><label for="area12">Texto del archivo:</label> <textarea id="area12" name="area12" rows="40" cols="120">Esto es un ejemplo de archivo txt</textarea></main>
+
+</body></html>

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id='Universidad de Oviedo'>
+<Placemark>
+<name>Nacimiento Guillermo</name>
+<description>Lugar de nacimiento de Guillermo</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Guillermo</name>
+<description>Lugar de residencia de Guillermo</description>
+<Point>
+<coordinates>-5.8475,43.3613</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Alejandra</name>
+<description>Lugar de nacimiento de Alejandra</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Alejandra</name>
+<description>Lugar de residencia de Alejandra</description>
+<Point>
+<coordinates>-5.8465,43.3603</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Elsa</name>
+<description>Lugar de nacimiento de Elsa</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Elsa</name>
+<description>Lugar de residencia de Elsa</description>
+<Point>
+<coordinates>-5.8495,43.3613</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Javier</name>
+<description>Lugar de nacimiento de Javier</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Javier</name>
+<description>Lugar de residencia de Javier</description>
+<Point>
+<coordinates>-5.8485,43.3673</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Carmen María</name>
+<description>Lugar de nacimiento de Carmen María</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Carmen María</name>
+<description>Lugar de residencia de Carmen María</description>
+<Point>
+<coordinates>-5.8435,43.3653</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Sara</name>
+<description>Lugar de nacimiento de Sara</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Sara</name>
+<description>Lugar de residencia de Sara</description>
+<Point>
+<coordinates>-5.8445,43.3643</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Alicia</name>
+<description>Lugar de nacimiento de Alicia</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Alicia</name>
+<description>Lugar de residencia de Alicia</description>
+<Point>
+<coordinates>-5.8405,43.3603</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Pepe</name>
+<description>Lugar de nacimiento de Pepe</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Pepe</name>
+<description>Lugar de residencia de Pepe</description>
+<Point>
+<coordinates>-5.8385,43.3613</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Rosalia</name>
+<description>Lugar de nacimiento de Rosalia</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Rosalia</name>
+<description>Lugar de residencia de Rosalia</description>
+<Point>
+<coordinates>-5.8405,43.3683</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Zape</name>
+<description>Lugar de nacimiento de Zape</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Zape</name>
+<description>Lugar de residencia de Zape</description>
+<Point>
+<coordinates>-5.8455,43.3673</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Marijel</name>
+<description>Lugar de nacimiento de Marijel</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Marijel</name>
+<description>Lugar de residencia de Marijel</description>
+<Point>
+<coordinates>-5.8465,43.3573</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Angel</name>
+<description>Lugar de nacimiento de Angel</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Angel</name>
+<description>Lugar de residencia de Angel</description>
+<Point>
+<coordinates>-5.8405,43.3643</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Nacimiento Juan</name>
+<description>Lugar de nacimiento de Juan</description>
+<Point>
+<coordinates>-5.8485,43.3623</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+<Placemark>
+<name>Residencia Juan</name>
+<description>Lugar de residencia de Juan</description>
+<Point>
+<coordinates>-5.8495,43.3593</coordinates>
+</Point>
+<altitudeMode>relativeToGround</altitudeMode>
+</Placemark>
+</Document>
+</kml>

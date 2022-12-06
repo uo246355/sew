@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<socialnetwork>
+<persona nombre="Guillermo" apellidos="De Leiva Martínez">
+<datos>
+<fechanacimiento>1996-12-23</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3613" rlongitud="-5.8475" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoGuillermo.jpg</foto>
+</fotos>
+<videos>
+<video>videoGuillermo.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya peliculón!</comentario>
+</comentarios>
+</datos>
+<persona nombre="Alejandra" apellidos="De Leiva Martínez">
+<datos>
+<fechanacimiento>1994-04-15</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3603" rlongitud="-5.8465" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoAlejandra.jpg</foto>
+</fotos>
+<videos>
+<video>videoAlejandra.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya mojón!</comentario>
+</comentarios>
+</datos>
+<persona nombre="Elsa" apellidos="De Leiva Martínez">
+<datos>
+<fechanacimiento>1999-06-28</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3613" rlongitud="-5.8495" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoElsa.jpg</foto>
+</fotos>
+<videos>
+<video>videoElsa.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya vaya!</comentario>
+</comentarios>
+</datos>
+</persona>
+<persona nombre="Javier" apellidos="De Leiva Moreno">
+<datos>
+<fechanacimiento>1964-04-14</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3673" rlongitud="-5.8485" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoJavier.jpg</foto>
+</fotos>
+<videos>
+<video>videoJavier.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya aqui no hay playa!</comentario>
+</comentarios>
+</datos>
+</persona>
+<persona nombre="Carmen María" apellidos="Martínez Alvarez">
+<datos>
+<fechanacimiento>1964-09-03</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3653" rlongitud="-5.8435" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoCarmen.jpg</foto>
+</fotos>
+<videos>
+<video>videoCarmen.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya ni montaña!</comentario>
+</comentarios>
+</datos>
+</persona>
+</persona>
+<persona nombre="Sara" apellidos="Montero Martínez">
+<datos>
+<fechanacimiento>1995-11-24</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3643" rlongitud="-5.8445" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoSara.jpg</foto>
+</fotos>
+<videos>
+<video>videoSara.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya horror!</comentario>
+</comentarios>
+</datos>  
+<persona nombre="Alicia" apellidos="Segovia Hevia">
+<datos>
+<fechanacimiento>1994-10-26</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3603" rlongitud="-5.8405" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoAlicia.jpg</foto>
+</fotos>
+<videos>
+<video>videoAlicia.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya playón!</comentario>
+</comentarios>
+</datos>
+</persona>
+<persona nombre="Pepe" apellidos="Moreno Martínez">
+<datos>
+<fechanacimiento>1990-01-22</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3613" rlongitud="-5.8385" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoPepe.jpg</foto>
+</fotos>
+<videos>
+<video>videoPepe.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya tractor!</comentario>
+</comentarios>
+</datos> 
+</persona>
+<persona nombre="Rosalia" apellidos="Calvo Sotelo">
+<datos>
+<fechanacimiento>1992-10-23</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3683" rlongitud="-5.8405" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoRosalia.jpg</foto>
+</fotos>
+<comentarios>
+<comentario>¡Vaya papo!</comentario>
+</comentarios>
+</datos>
+</persona>
+</persona>
+<persona nombre="Zape" apellidos="Martínez Martínez">
+<datos>
+<fechanacimiento>1986-02-12</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3673" rlongitud="-5.8455" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoZape.jpg</foto>
+</fotos>
+<videos>
+<video>videoZape.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya torta!</comentario>
+</comentarios>
+</datos>
+<persona nombre="Marijel" apellidos="Martínez Martínez">
+<datos>
+<fechanacimiento>1976-11-03</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3573" rlongitud="-5.8465" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoMarijel.jpg</foto>
+</fotos>
+<videos>
+<video>videoMarijel.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya playón!</comentario>
+</comentarios>
+</datos>
+</persona>
+<persona nombre="Angel" apellidos="Martínez Martínez">
+<datos>
+<fechanacimiento>1956-11-23</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3643" rlongitud="-5.8405" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoAngel.jpg</foto>
+</fotos>
+<videos>
+<video>videoAngel.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya aburrimiento!</comentario>
+</comentarios>
+</datos>
+</persona>
+<persona nombre="Juan" apellidos="Martínez Martínez">
+<datos>
+<fechanacimiento>1946-10-14</fechanacimiento>
+<lugar lnacimiento="Oviedo" lresidencia="Oviedo"></lugar>
+<coordenadas>
+<nacimiento nlatitud="43.3623" nlongitud="-5.8485" naltitud="232"></nacimiento>
+<residencia rlatitud="43.3593" rlongitud="-5.8495" raltitud="232"></residencia>
+</coordenadas>
+<fotos>
+<foto>fotoJuan.jpg</foto>
+</fotos>
+<videos>
+<video>videoJuan.mp4</video>
+</videos>
+<comentarios>
+<comentario>¡Vaya viejo soy!</comentario>
+</comentarios>
+</datos>
+</persona>
+</persona>
+</persona>  
+</socialnetwork>

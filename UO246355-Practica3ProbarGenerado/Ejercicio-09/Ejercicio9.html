@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="Guillermo de Leiva Martínez">
+    <meta name="description" content="Página web que habla sobre el Framework Bootstrap">
+    <meta name="keywords" content="Bootstrap, HTML, CSS, JavaScript, Uniovi, Framework, ingenieria, software, desarrollo, web">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link de enlaces a la hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio9.css">
+    <!-- <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" /> -->
+    <title>OpenWeatherMap</title>
+</head>
+<body>
+  <header>
+    <h1>Consumo de OpenWeatherMap XML</h1>
+  </header>
+  <script src="Ejercicio9.js"></script>
+    <main>
+    
+    <p><input type="button" value="Mostrar XML" onclick="meteo.verJSON()" disabled="disabled"></p>
+
+  <h2>Datos</h2><ul><li>Número de elementos del XML: 19</li><li>Ciudad: Gijón</li><li>Longitud: -5.6615 grados</li><li>Latitud: 43.5357 grados</li><li>País: ES</li><li>Amanece a las: 8:41:04</li><li>Oscurece a las: 17:46:31</li><li>Temperatura: 12.82 grados Celsius</li><li>Temperatura mínima: 11.7 grados Celsius</li><li>Temperatura máxima: 14.33 grados Celsius</li><li>Temperatura (unidades): celsius</li><li>Humedad: 87 %</li><li>Presión: 1015 hPa</li><li>Velocidad del viento: 1.27 metros/segundo</li><li>Nombre del viento: Calm</li><li>Dirección del viento: 234 grados</li><li>Código del viento: SW</li><li>Nombre del viento: Southwest</li><li>Nubosidad: 77</li><li>Nombre nubosidad: broken clouds</li><li>Visibilidad: 10000 metros</li><li>Precipitación valor: undefined</li><li>Precipitación modo: no</li><li>Descripción: muy nuboso</li><li>Hora de la medida: 20:19:50</li><li>Fecha de la medida: 6/12/2022</li><li> <img src="https://openweathermap.org/img/w/04n.png" alt="Icono de OpenWeather"></li></ul><ul><li>Número de elementos del XML: 19</li><li>Ciudad: Oviedo</li><li>Longitud: -5.8448 grados</li><li>Latitud: 43.3603 grados</li><li>País: ES</li><li>Amanece a las: 8:41:13</li><li>Oscurece a las: 17:47:50</li><li>Temperatura: 11.56 grados Celsius</li><li>Temperatura mínima: 10.2 grados Celsius</li><li>Temperatura máxima: 12.82 grados Celsius</li><li>Temperatura (unidades): celsius</li><li>Humedad: 82 %</li><li>Presión: 1014 hPa</li><li>Velocidad del viento: 0.75 metros/segundo</li><li>Nombre del viento: Calm</li><li>Dirección del viento: 209 grados</li><li>Código del viento: SSW</li><li>Nombre del viento: South-southwest</li><li>Nubosidad: 88</li><li>Nombre nubosidad: overcast clouds</li><li>Visibilidad: 10000 metros</li><li>Precipitación valor: undefined</li><li>Precipitación modo: no</li><li>Descripción: nubes</li><li>Hora de la medida: 20:20:08</li><li>Fecha de la medida: 6/12/2022</li><li> <img src="https://openweathermap.org/img/w/04n.png" alt="Icono de OpenWeather"></li></ul><ul><li>Número de elementos del XML: 19</li><li>Ciudad: Santander</li><li>Longitud: -3.8044 grados</li><li>Latitud: 43.4647 grados</li><li>País: ES</li><li>Amanece a las: 8:33:24</li><li>Oscurece a las: 17:39:20</li><li>Temperatura: 13.02 grados Celsius</li><li>Temperatura mínima: 12.06 grados Celsius</li><li>Temperatura máxima: 13.59 grados Celsius</li><li>Temperatura (unidades): celsius</li><li>Humedad: 84 %</li><li>Presión: 1016 hPa</li><li>Velocidad del viento: 2.57 metros/segundo</li><li>Nombre del viento: Light breeze</li><li>Dirección del viento: 220 grados</li><li>Código del viento: SW</li><li>Nombre del viento: Southwest</li><li>Nubosidad: 20</li><li>Nombre nubosidad: few clouds</li><li>Visibilidad: 10000 metros</li><li>Precipitación valor: undefined</li><li>Precipitación modo: no</li><li>Descripción: algo de nubes</li><li>Hora de la medida: 20:17:29</li><li>Fecha de la medida: 6/12/2022</li><li> <img src="https://openweathermap.org/img/w/02n.png" alt="Icono de OpenWeather"></li></ul><ul><li>Número de elementos del XML: 19</li><li>Ciudad: Mieres</li><li>Longitud: -5.7667 grados</li><li>Latitud: 43.25 grados</li><li>País: ES</li><li>Amanece a las: 8:40:33</li><li>Oscurece a las: 17:47:53</li><li>Temperatura: 11.03 grados Celsius</li><li>Temperatura mínima: 9.53 grados Celsius</li><li>Temperatura máxima: 11.3 grados Celsius</li><li>Temperatura (unidades): celsius</li><li>Humedad: 82 %</li><li>Presión: 1017 hPa</li><li>Velocidad del viento: 0.41 metros/segundo</li><li>Nombre del viento: Calm</li><li>Dirección del viento: 201 grados</li><li>Código del viento: SSW</li><li>Nombre del viento: South-southwest</li><li>Nubosidad: 99</li><li>Nombre nubosidad: overcast clouds</li><li>Visibilidad: 10000 metros</li><li>Precipitación valor: undefined</li><li>Precipitación modo: no</li><li>Descripción: nubes</li><li>Hora de la medida: 20:21:57</li><li>Fecha de la medida: 6/12/2022</li><li> <img src="https://openweathermap.org/img/w/04n.png" alt="Icono de OpenWeather"></li></ul><ul><li>Número de elementos del XML: 19</li><li>Ciudad: Avilés</li><li>Longitud: -5.9248 grados</li><li>Latitud: 43.5547 grados</li><li>País: ES</li><li>Amanece a las: 8:42:11</li><li>Oscurece a las: 17:47:31</li><li>Temperatura: 12.74 grados Celsius</li><li>Temperatura mínima: 11.66 grados Celsius</li><li>Temperatura máxima: 13.43 grados Celsius</li><li>Temperatura (unidades): celsius</li><li>Humedad: 82 %</li><li>Presión: 1017 hPa</li><li>Velocidad del viento: 1.03 metros/segundo</li><li>Nombre del viento: Calm</li><li>Dirección del viento: 280 grados</li><li>Código del viento: W</li><li>Nombre del viento: West</li><li>Nubosidad: 75</li><li>Nombre nubosidad: broken clouds</li><li>Visibilidad: 10000 metros</li><li>Precipitación valor: undefined</li><li>Precipitación modo: no</li><li>Descripción: muy nuboso</li><li>Hora de la medida: 20:21:57</li><li>Fecha de la medida: 6/12/2022</li><li> <img src="https://openweathermap.org/img/w/04n.png" alt="Icono de OpenWeather"></li></ul></main>
+
+</body></html>
