@@ -114,7 +114,6 @@ class GeoLocalizacion {
             }
     }
     cargarDatos(){
-        console.log("llegamos");
             $.ajax({
                 dataType: "json",
                 url: "https://api.openweathermap.org/data/2.5/weather?lat="+this.latitud+"&lon="+this.longitud+"&appid=fb96cae6f44d2c1c9bf5803657a29682",
@@ -123,7 +122,6 @@ class GeoLocalizacion {
                         //$("pre").text(JSON.stringify(datos, null, 2)); //muestra el json en un elemento pre
                     
                         //Presentación de los datos contenidos en JSON
-                        console.log("llegue");
                         var stringDatos = "<ul><li>Ciudad: " + datos.name + "</li>";
                             stringDatos += "<li>País: " + datos.sys.country + "</li>";
                             stringDatos += "<li>Latitud: " + datos.coord.lat + " grados</li>";
@@ -143,7 +141,6 @@ class GeoLocalizacion {
                             stringDatos += "<li>Visibilidad: " + datos.visibility + " metros</li>";
                             stringDatos += "<li>Nubosidad: " + datos.clouds.all + " %</li>";
                             stringDatos += '<li> <img src="https://openweathermap.org/img/w/' + datos.weather[0].icon +'.png" alt="Icono de OpenWeather" /></li></ul>'
-                            console.log(stringDatos);
                         $("footer").append(stringDatos);
                     },
                 error:function(){
