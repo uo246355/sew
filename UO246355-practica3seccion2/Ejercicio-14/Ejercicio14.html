@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Guillermo de Leiva Martínez" />
+    <meta name ="description" content ="Página web que habla sobre el Framework Bootstrap" />
+    <meta name ="keywords" content ="Bootstrap, HTML, CSS, JavaScript, Uniovi, Framework, ingenieria, software, desarrollo, web" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- link de enlaces a la hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio14.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" /> -->
+    <title>Aplicación temática libre</title>
+</head>
+<body>
+  <header>
+    <h1>Aplicación de subida de audio y video</h1>
+  </header>
+  <script src="Ejercicio14.js"></script>
+    <main>
+    
+      <p>Subir imagen: <input type="file" name="subirImagen" onchange="filer.showImage();"></p>
+      <p>Subir audio: <input type="file" name="subirAudio" onchange="filer.showAudio();"></p>
+      <canvas width="400" height="300" id="canvas"></canvas>
+  </main>
+</body>
+</html>

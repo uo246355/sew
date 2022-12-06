@@ -1,0 +1,369 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Guillermo",
+                "description": "Lugar de nacimiento de Guillermo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Guillermo",
+                "description": "Lugar de residencia de Guillermo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8475,
+                    43.3613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Alejandra",
+                "description": "Lugar de nacimiento de Alejandra"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Alejandra",
+                "description": "Lugar de residencia de Alejandra"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8465,
+                    43.3603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Elsa",
+                "description": "Lugar de nacimiento de Elsa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Elsa",
+                "description": "Lugar de residencia de Elsa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8495,
+                    43.3613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Javier",
+                "description": "Lugar de nacimiento de Javier"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Javier",
+                "description": "Lugar de residencia de Javier"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Carmen María",
+                "description": "Lugar de nacimiento de Carmen María"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Carmen María",
+                "description": "Lugar de residencia de Carmen María"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8435,
+                    43.3653
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Sara",
+                "description": "Lugar de nacimiento de Sara"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Sara",
+                "description": "Lugar de residencia de Sara"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8445,
+                    43.3643
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Alicia",
+                "description": "Lugar de nacimiento de Alicia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Alicia",
+                "description": "Lugar de residencia de Alicia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8405,
+                    43.3603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Pepe",
+                "description": "Lugar de nacimiento de Pepe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Pepe",
+                "description": "Lugar de residencia de Pepe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8385,
+                    43.3613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Rosalia",
+                "description": "Lugar de nacimiento de Rosalia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Rosalia",
+                "description": "Lugar de residencia de Rosalia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8405,
+                    43.3683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Zape",
+                "description": "Lugar de nacimiento de Zape"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Zape",
+                "description": "Lugar de residencia de Zape"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8455,
+                    43.3673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Marijel",
+                "description": "Lugar de nacimiento de Marijel"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Marijel",
+                "description": "Lugar de residencia de Marijel"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8465,
+                    43.3573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Angel",
+                "description": "Lugar de nacimiento de Angel"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Angel",
+                "description": "Lugar de residencia de Angel"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8405,
+                    43.3643
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento Juan",
+                "description": "Lugar de nacimiento de Juan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8485,
+                    43.3623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia Juan",
+                "description": "Lugar de residencia de Juan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.8495,
+                    43.3593
+                ]
+            }
+        }
+    ]
+}
