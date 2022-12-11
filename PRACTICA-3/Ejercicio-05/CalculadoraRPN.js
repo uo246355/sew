@@ -425,8 +425,43 @@
          calc.digitos(9);
       }
     });
+   }
 
-    
+   addEvents(){
+      document.querySelector('form input[name="valorTrigonometrico"]').on('click touchstart', this.cambiarValorTrigonometrico());
+      document.querySelector('form input[name="e"]').on('click touchstart', this.e());
+      document.querySelector('form input[name="pi"]').on('click touchstart', this.pi());
+      document.querySelector('form input[name="siete"]').on('click touchstart', this.digitos(7));
+      document.querySelector('form input[name="ocho"]').on('click touchstart', this.digitos(8));
+      document.querySelector('form input[name="nueve"]').on('click touchstart', this.digitos(9));
+      document.querySelector('form input[name="division"]').on('click touchstart', this.division());
+      document.querySelector('form input[name="multiplicacion"]').on('click touchstart', this.multiplicacion());
+      document.querySelector('form input[name="resta"]').on('click touchstart', this.resta());
+      document.querySelector('form input[name="suma"]').on('click touchstart', this.suma());
+      document.querySelector('form input[name="tangente"]').on('click touchstart', this.tangente());
+      document.querySelector('form input[name="cuatro"]').on('click touchstart', this.digitos(4));
+      document.querySelector('form input[name="cinco"]').on('click touchstart', this.digitos(5));
+      document.querySelector('form input[name="seis"]').on('click touchstart', this.digitos(6));
+      document.querySelector('form input[name="arcoseno"]').on('click touchstart', this.arcoseno());
+      document.querySelector('form input[name="arcocoseno"]').on('click touchstart', this.arcocoseno());
+      document.querySelector('form input[name="Enter"]').on('click touchstart', this.Enter());
+      document.querySelector('form input[name="seno"]').on('click touchstart', this.seno());
+      document.querySelector('form input[name="exponencial"]').on('click touchstart', this.exponencial());
+      document.querySelector('form input[name="uno"]').on('click touchstart', this.digitos(1));
+      document.querySelector('form input[name="dos"]').on('click touchstart', this.digitos(2));
+      document.querySelector('form input[name="tres"]').on('click touchstart', this.digitos(3));
+      document.querySelector('form input[name="coseno"]').on('click touchstart', this.coseno());
+      document.querySelector('form input[name="cero"]').on('click touchstart', this.digitos(0));
+      document.querySelector('form input[name="punto"]').on('click touchstart', this.punto());
+      document.querySelector('form input[name="borrar"]').on('click touchstart', this.borrar());
+      document.querySelector('form input[name="arcotangente"]').on('click touchstart', this.arcotangente());
+      document.querySelector('form input[name="cuadrado"]').on('click touchstart', this.cuadrado());
+      document.querySelector('form input[name="cubo"]').on('click touchstart', this.cubo());
+      document.querySelector('form input[name="raizcuadrada"]').on('click touchstart', this.raizcuadrada());
+      document.querySelector('form input[name="raizcubica"]').on('click touchstart', this.raizcubica());
+      document.querySelector('form input[name="logaritmo"]').on('click touchstart', this.logaritmo());
+      document.querySelector('form input[name="logaritmoneperiano"]').on('click touchstart', this.logaritmoneperiano());
+      document.querySelector('form input[name="factorial"]').on('click touchstart', this.factorial());
    }
  }
 
