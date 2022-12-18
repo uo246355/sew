@@ -1,0 +1,71 @@
+/*********
+    Autor: Guillermo de Leiva Martínez - UO246355
+    Descripcion de la hoja de estilo
+************/
+/* Especificidad: 001*/
+body {
+    font-family: Tahoma, sans-serif;
+    color: #E6E6E6;
+    background-color:#4A4A4A;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+
+    }
+/* Especificidad: 001*/   
+main{
+       max-width: 100%;
+       height: 50em;
+
+   }
+   /* Especificidad: 001*/
+   h1 {
+    text-transform: uppercase;
+    text-align: center;
+   }
+   /* Especificidad: 001*/
+   header{
+       background-color: black;
+       color: #E6E6E6;
+   }
+   /* Especificidad: 001*/
+   nav{
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 2em;
+       color: #E6E6E6;
+       background-color:#4A4A4A;
+       text-transform: uppercase;
+       text-align: center;
+   }
+   /* Especificidad: 003*/
+   main p a{
+    text-decoration: none;
+    color: #E6E6E6;
+    background-color:#4A4A4A;
+   }
+   /* Especificidad: 002*/
+   nav a{
+       text-decoration: none;
+       color: #E6E6E6;
+       background-color:#4A4A4A;
+   }
+   /* Especificidad: 001*/
+   main{
+       font-family: Tahoma, sans-serif;
+       color: #E6E6E6;
+       background-color:#4A4A4A;
+       
+   }
+    /* Especificidad: 001*/
+     th, td{
+        padding: 1em;
+    }
+    main input{
+        height: 2em;
+        width: 16em;
+    }

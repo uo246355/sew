@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="Guillermo de Leiva Martínez">
+    <meta name="description" content="Ejercicio 6 de PHP">
+    <meta name="keywords" content="Bootstrap, HTML, CSS, PHP, Uniovi, Framework, ingenieria, software, desarrollo, web">
+
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link de enlaces a la hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css">
+    <!-- <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" /> -->
+    <title>Base de datos MYSQL</title>
+</head>
+
+<body>
+    <main>
+        <h1>Aplicación de taxis</h1>
+
+        <h2>Resultado de la operación</h2>
+        <p>ID: 0100, ID Taxi: 1000, DNI Cliente: 71730358, Hora Salida: 18:00, Destino: Calle A, Fecha: 2022-12-14</p>
+        <h2>Buscar</h2>
+        <form action="#" method="post">
+            <label>Barra de búsqueda: <input type="text" name="barraBuscar" required=""></label>
+            <input type="submit" value="Buscar cliente por dni" name="buscarCliente">
+            <input type="submit" value="Buscar conductor por dni" name="buscarConductor">
+            <input type="submit" value="Buscar taxi por dni conductor" name="buscarTaxi">
+            <input type="submit" value="Buscar trayectos por hora" name="buscarTrayectos">
+        </form>
+
+        <h2>Añadir trayecto</h2>
+        <form action="#" method="post">
+            <label>ID del taxi: <input type="text" name="idTaxi" required=""></label>
+            <label>DNI cliente: <input type="text" name="dni" required=""></label>
+            <label>Hora Salida: <input type="text" name="salida" required=""></label>
+            <label>Destino: <input type="text" name="destino" required=""></label>
+            <label>Fecha: <input type="date" name="fecha" required=""></label>
+            <input type="submit" value="Añadir" name="añadirTrayecto">
+        </form>
+    </main>
+
+
+</body></html>

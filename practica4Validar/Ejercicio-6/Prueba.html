@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="Guillermo de Leiva Martínez">
+    <meta name="description" content="Ejercicio 6 de PHP">
+    <meta name="keywords" content="Bootstrap, HTML, CSS, PHP, Uniovi, Framework, ingenieria, software, desarrollo, web">
+
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link de enlaces a la hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio6.css">
+    <!-- <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" /> -->
+    <title>Base de datos MYSQL</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio 6 de PHP</h1>
+    </header>
+    <nav>
+        <a href="#base" tabindex="1" accesskey="o">Operaciones</a>
+        <a href="#insertar" tabindex="2" accesskey="i">Insertar</a> 
+        <a href="#modificar" tabindex="3" accesskey="u">Modificar</a>
+        <a href="#buscar" tabindex="4" accesskey="s">Buscar</a>
+        <a href="#borrar" tabindex="5" accesskey="d">Borrar</a>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    </nav>
+    <main>
+        <h2>Estado</h2>
+        <p>
+            Base de datos conectada.        </p>
+
+        <h2>Operaciones</h2>
+        <form action="#" method="post" enctype="multipart/form-data" id="base">
+            <input type="submit" value="Crear base de datos" name="crearBase">
+            <input type="submit" value="Crear una tabla" name="crearTabla">
+            <input type="submit" value="Generar informe" name="crearInforme">
+
+            <label for="seleccionarCsv">Seleccionar CSV</label><br>
+            <input type="file" id="seleccionarCsv" name="seleccionarCsv">
+            <input type="submit" value="Insertar datos del CSV" name="insertarCSV">
+
+            <input type="submit" value="Descargar CSV" name="descargar">
+        </form>
+
+        <h2>Insertar Datos</h2>
+        <form action="#" method="post" id="insertar">
+            <label>DNI de quien realiza la prueba: <input type="text" name="dni" required=""></label>
+            <label>Nombre de quien realiza la prueba: <input type="text" name="nombre" required=""></label>
+            <label>Apellidos de quien realiza la prueba: <input type="text" name="apellidos" required=""></label>
+            <label>Email de quien realiza la prueba: <input type="text" name="email"></label>
+            <label>Telefono de quien realiza la prueba: <input type="text" name="telefono"></label>
+            <label>Edad de quien hace la prueba: <input type="number" min="0" step="1" name="edad" required=""></label>
+            <fieldset>
+                <legend>Sexo de quien hace la prueba: </legend>
+                <p><label>Masculino<input type="radio" value="m" name="sexo" checked=""></label></p>
+                <p><label>Femenino<input type="radio" value="f" name="sexo"></label></p>
+            </fieldset>
+            <label>Nivel de pericia informática de quien hace la prueba: <input type="text" name="nivel" required=""></label>
+            <label>Tiempo que tarda en realizar la prueba en segundos: <input type="number" min="0" name="tiempo" required=""></label>
+            <fieldset>
+                <legend>Completada correctamente: </legend>
+                <p><label>Sí<input type="radio" value="si" name="completada"></label></p>
+                <p><label>No<input type="radio" value="no" name="completada" checked=""></label></p>
+            </fieldset>
+            <label>Comentarios sobre problemas de la app: <input type="text" name="comentarios"></label>
+            <label>Propuestas de mejora de la app: <input type="text" name="propuestas"></label>
+            <label>Valoración: <input type="number" min="0" max="10" name="valoracion" required=""></label>
+            <input type="submit" value="Insertar datos" name="insertar">
+        </form>
+
+        <h2>Modificar datos</h2>
+        <form action="#" method="post" id="modificar">
+            <label>DNI de quien realiza la prueba: <input type="text" name="dni"></label>
+            <label>Nombre de quien realiza la prueba: <input type="text" name="nombre"></label>
+            <label>Apellidos de quien realiza la prueba: <input type="text" name="apellidos"></label>
+            <label>Email de quien realiza la prueba: <input type="text" name="email"></label>
+            <label>Telefono de quien realiza la prueba: <input type="text" name="telefono"></label>
+            <label>Edad de quien hace la prueba: <input type="number" min="0" step="1" name="edad"></label>
+            <fieldset>
+                <legend>Sexo de quien hace la prueba: </legend>
+                <p><label>Masculino<input type="radio" value="m" name="sexo"></label></p>
+                <p><label>Femenino<input type="radio" value="f" name="sexo"></label></p>
+            </fieldset>
+            <label>Nivel de pericia informática de quien hace la prueba: <input type="text" name="nivel"></label>
+            <label>Tiempo que tarda en realizar la prueba en segundos: <input type="number" min="0" name="tiempo"></label>
+            <fieldset>
+                <legend>Completada correctamente: </legend>
+                <p><label>Sí<input type="radio" value="si" name="completada"></label></p>
+                <p><label>No<input type="radio" value="no" name="completada"></label></p>
+            </fieldset>
+            <label>Comentarios sobre problemas de la app: <input type="text" name="comentarios"></label>
+            <label>Propuestas de mejora: <input type="text" name="propuestas"></label>
+            <label>Valoración de la app: <input type="number" min="0" max="10" name="valoracion"></label>
+            <input type="submit" value="Modificar datos" name="modificar">
+        </form>
+        <h2>Buscar datos</h2>
+        <form action="#" method="post" id="buscar">
+            <label>DNI de quien realiza la prueba: <input type="text" name="dni" required=""></label>
+            <input type="submit" value="Buscar datos" name="buscar">
+        </form>
+        <h2>Borrar datos</h2>
+        <form action="#" method="post" id="borrar">
+            <label>DNI de quien realiza la prueba: <input type="text" name="dni" required=""></label>
+            <input type="submit" value="Eliminar datos" name="eliminar">
+        </form>
+
+    </main>
+
+
+</body></html>
